@@ -16,7 +16,7 @@ const chats = [
 
 export function Sidebar() {
   return (
-    <aside className="py-12 w-1/6 h-screen">
+    <aside className="py-12 w-1/6 min-w-[225px] h-screen">
       <h1 className="text-2xl font-bold text-gray-700 px-5 mb-6">Grupos</h1>
 
       <div className="flex flex-col gap-5">
